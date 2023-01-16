@@ -183,7 +183,7 @@ def stations(df, mode='top'):
         y=list(stations_from.keys()),
         x=list(stations_to.values),
         orientation='h',
-        marker=dict(color=RED),
+        marker=dict(color=BLUE),
         showlegend=False
     ), row=1, col=1)
 
@@ -225,6 +225,6 @@ def routes(df):
 
     fig = go.Figure(data=[
         go.Bar(y=top5_pairs['from_station_name'] + ' --> ' + top5_pairs['to_station_name'], x=top5_pairs['count'],
-               orientation='h', marker=dict(color=RED))])
+               orientation='h', marker=dict(color=BLUE))])
     fig.update_layout(title_text='Trajets plus populaires', xaxis_title='Voyages', template=TEMPLATE)
     return fig
