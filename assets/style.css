@@ -1,0 +1,43 @@
+#histogram-selector1 .VirtualizedSelectFocusedOption {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+#histogram-selector1 .Select-menu-outer {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+#histogram-selector2 .VirtualizedSelectFocusedOption {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+#histogram-selector2 .Select-menu-outer {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+#histogram-selector3 .VirtualizedSelectFocusedOption {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+#histogram-selector3 .Select-menu-outer {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+#histogram-selector4 .VirtualizedSelectFocusedOption {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+#histogram-selector4 .Select-menu-outer {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+#histogram-selector4{
+  position: relative;
+}
+
+histogram-selector4{
+  position: relative;
+}
